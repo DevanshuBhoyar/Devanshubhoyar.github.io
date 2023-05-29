@@ -1,0 +1,119 @@
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: white;
+    }
+    p{
+        position: relative;
+        clear: right;
+    }
+    section{
+        position: relative;
+        padding: 15px;
+        width: 90%;
+    }
+    h1{
+        margin-bottom: 15px;
+     text-align: center;
+     color:rgb(247, 31, 31);
+     font-size: 50px;
+     }
+    div{
+        background-color: rgb(107, 106, 106);
+        border: 3.5px solid rgb(0, 0, 0);
+        width: 100%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .box1{
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(238, 121, 137);
+
+    }
+
+    .box2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 125%;
+        background-color: rgb(252, 3, 3);
+
+    }
+    
+    .text{
+        padding: 5px;
+        border: none;
+        background-color: gray;
+        font-family: Helvetica;
+        color: black;
+        margin: 3px ;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .box3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+         margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+
+    }
+    .row {
+        width: 90%;
+    }
+
+     /* for desktop version */
+    @media (min-width: 990px) {
+        .responsive1 {
+            width: 32.95%;
+            float: left;
+        }
+    }
+    /* for mobile version*/
+    @media (max-width: 765px) {
+        .responsive4 {
+            width: 100%;
+            float: left;
+        }
+    }
+
+    /* for tablet version*/
+    @media (min-width: 765px) and (max-width: 990px) {
+        .responsive2 {
+            float: left;
+            margin-right: auto;
+            margin-left: auto;
+            width: 50%;
+        }
+
+        .responsive3 {
+            width: 100%;
+            float: left;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
